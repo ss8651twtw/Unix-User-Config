@@ -76,12 +76,11 @@ else
 fi
 echo "[1;32m"
 cat <<'EOF'
- _      _                        
-| | ___| |_ ___  ___ _ __   __ _ 
-| |/ __| __/ __|/ _ \ '_ \ / _` |
-| | (__| |_\__ \  __/ | | | (_| |
-|_|\___|\__|___/\___|_| |_|\__, |
-                           |___/ 
+ _ _                 ___  _  _   
+| (_)_ __  ___  ___ / _ \| || |  
+| | | '_ \/ __|/ __| | | | || |_ 
+| | | | | \__ \ (__| |_| |__   _|
+|_|_|_| |_|___/\___|\___/   |_|  
 EOF
 echo "[1;0m"
 echo "[1;91mATTENTION!![1;0m"
@@ -90,9 +89,9 @@ echo "Or you can run '[1;91mgit config --global user.name \"Your Name\"[1;0m' 
 echo "and '[1;91mgit config --global user.email you@example.com[1;0m' to set your email address"
 
 username=`whoami`
-if [ "${username}" != "lctseng" ]; then
+if [ "${username}" != "linsc04" ]; then
   echo "[Git configuration]"
-  echo "It seems that your name is not lctseng."
+  echo "It seems that your name is not linsc04."
   while true;
   do
     echo -n "Do you change the settings for git? [1;91m[y/N][1;0m "

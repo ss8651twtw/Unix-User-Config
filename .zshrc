@@ -260,8 +260,8 @@ source ~/Unix-User-Config/zsh-autosuggestions/zsh-autosuggestions.zsh
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=cyan,underline'
 
 ## rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
+#export PATH="$HOME/.rbenv/bin:$PATH"
 # Load rbenv automatically by appending
 # the following to ~/.zshrc:
-eval "$(rbenv init -)"
+#eval "$(rbenv init -)"
 
