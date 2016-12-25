@@ -120,4 +120,7 @@ if [ "${username}" != "linsc04" ]; then
       echo "Unknown choice. Please enter either 'y' or 'n'"
     fi
   done
+else
+  git config --global user.name "ss8651twtw"
+  git config --global user.email "ss8651twtw@gmail.com"
 fi
